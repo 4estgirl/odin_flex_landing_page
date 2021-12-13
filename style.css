@@ -8,8 +8,8 @@
 
 .blank {
     margin-top: 20px;
-    margin-left: 200px;
-    margin-right: 200px;
+    margin-left: 350px;
+    margin-right: 350px;
     margin-bottom: 100px;
 }
 
@@ -32,6 +32,7 @@ ul {
 
 .slider {
     display: flex;
+    gap: 50px;
 }
 
 h1 {
@@ -49,14 +50,51 @@ button {
 }
 
 .header_img {
-    height: 400px;
-    width: 800px;
+    height: 200px;
+    width: 650px;
     display: flex;
     align-items: center;
     justify-content: center;
-    flex: 1;
 }
 
 .img_back {
     background-color: slategray;
+}
+
+.middle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 100px;
+}
+
+h2 {
+    padding: 50px;
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 100px;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 200px;
+    text-align: center;
+}
+
+.roundbox {
+    border: 2px #3882f6;
+    border-style: solid;
+    border-radius: 20px;
+    border-width: 4px;
+    padding: 20px;
+    width: 200px;
+    height: 200px;
 }
