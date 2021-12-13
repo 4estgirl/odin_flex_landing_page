@@ -146,3 +146,12 @@ h3 {
     margin-left: auto;
     border-color: white;
 }
+
+.copyright {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    color: white;
+}
