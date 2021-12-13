@@ -98,3 +98,26 @@ h2 {
     width: 200px;
     height: 200px;
 }
+
+.quoteback {
+    display: flex;
+    flex-direction: column;
+    background-color: #e5e7eb; 
+    padding-top: 120px;
+    padding-left: 350px;
+    padding-right: 350px;
+    padding-bottom: 100px;
+}
+
+.quote {
+    color: #1f2937;
+    font-weight: 300;
+    font-size: 36px;
+}
+
+.author {
+    font-weight: 700;
+    color: black;
+    font-size: 22px;
+    margin-left: auto;
+}
