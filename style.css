@@ -8,8 +8,8 @@
 
 .blank {
     margin-top: 20px;
-    margin-left: 350px;
-    margin-right: 350px;
+    margin-left: 200px;
+    margin-right: 200px;
     margin-bottom: 100px;
 }
 
@@ -120,4 +120,29 @@ h2 {
     color: black;
     font-size: 22px;
     margin-left: auto;
+}
+
+.action {
+    display: flex;
+    background-color: #3882f6;
+    border-radius: 20px;
+    padding: 40px 100px;
+    margin: 100px 200px;
+}
+
+h3 {
+    color: white;
+    font-size: 22px;
+    margin: 0px;
+}
+
+#p {
+    color: #e5e7eb;
+    margin: 0px;
+    font-size: 18px;
+}
+
+.fbutton {
+    margin-left: auto;
+    border-color: white;
 }
